@@ -1,0 +1,545 @@
+html {
+
+}
+
+body {
+	background-color: #343B4E;
+	color: white;
+	font-weight: lighter;
+	position: relative;
+}
+
+.navbar-brand {
+	color: green;
+}
+
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: #5ABFF2;
+
+}
+
+.pos-f-t {
+	display: none;
+
+}
+
+
+
+
+/* my name */
+
+.background1 {
+	background-image: url(../images/deskwd.jpg);
+	padding: 300px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.namebox {
+    width: 10rem;
+    height: auto;
+    position: relative;
+    right: 15rem;
+}
+
+
+
+.myname {
+	font-weight: bold;
+	font-size: 65px;
+	color: white;
+	letter-spacing: 6px;
+	position: relative;
+	bottom: 120px;
+}
+
+.titlebox {
+    width: 25rem;
+    height: auto;
+    position: relative;
+    bottom: 1rem;
+    right: 15rem;
+}
+
+
+#blue {
+	color: #5ABFF2;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #5ABFF2;
+	text-align: center;
+	letter-spacing: 6px;
+	position: relative;
+	bottom: 120px;
+}
+
+
+/* resume info */
+
+.resume {
+	width: 700px;
+	height: 600px;
+	background-color: #343B4E;
+	margin: 0 auto;
+	padding: 80px 60px;
+	box-shadow: 1px 1px 15px black;
+	position: relative;
+	bottom: 600px;
+	text-align: center;
+	z-index: 3;
+}
+
+
+
+p {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.pframe {
+	margin-top: 300px;
+}
+
+.btn {
+	color: white;
+	font-weight: lighter;
+	border-color: #6df0fb;
+	background-color: #343B4E;
+}
+
+.btn:hover, .btn:active {
+ background-color: #336C95;
+ border-color: #6df0fb;
+}
+
+
+
+/*Dot nav*/
+.nav-pills {
+	position: fixed;
+	top: 20rem;
+	z-index: 10;
+	right: 20px;
+	font-size: 10px;
+}
+
+
+.nav-item .fa {
+	line-height: 2rem;
+	/*color: white;*/
+}
+
+.fa:hover {
+	color: #5ABFF2; 
+}
+
+
+.nav-pills>li.active>a{
+       color: #5ABFF2 !important ;
+}
+
+/*Dot nav / Hover Tooltips*/
+
+.tooltiptext {
+    visibility: hidden;
+    border: 1px solid #6df0fb;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding: 0 7px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+    right: 15px;
+}
+
+/*Visable on hover*/
+
+#homeDot {
+	top: 3px;
+}
+
+.dothome:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#proDot {
+	top: 35px;
+
+}
+.dotpro:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#expeDot {
+	top: 70px;
+	
+}
+.dotexpe:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#portDot {
+	top: 100px;
+	
+}
+.dotport:hover .tooltiptext {
+    visibility: visible;
+}
+
+#contDot {
+	top: 133px;
+	
+}
+.dotcont:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/*Professional section*/
+
+.pro {
+	height: 1050px;
+	background-image: url(../images/mac.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	bottom: 900px;
+	z-index: 1;
+	color: white;
+
+}
+
+.explevel {
+	color: white;
+	position: relative;
+	top: 25rem;
+	text-align: center;
+	z-index: 5;
+	letter-spacing: 6px;
+}
+
+/*Progress bar*/
+
+.barbox {
+	position: relative;
+	top: 30rem;
+	padding-left: 20%;
+
+}
+
+.barbox span{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.skillbar-bar{
+   height:12px;
+   background-color: #25db11;
+   padding-left: 1rem;
+   text-align: right;
+   font-size: .7rem;
+   font-weight: bold;
+   padding-right: 1rem;
+   border-radius: 10px;
+}
+
+#barhtml {
+	   width: 90%;
+}
+
+#barwp {
+    width: 70%;
+}
+
+#barjs {
+	width: 65%;
+}
+
+#barcss {
+	width: 85%;
+}
+
+/*Projects */
+
+.protitle{
+	position: absolute;
+	top: 127rem;
+	text-align: center;
+	 margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+
+.projects {
+	position: absolute;
+	top: 140rem;
+    margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+    letter-spacing: 6px;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+
+.col-md-12 {
+	padding: 15px;
+	margin: 10px;
+
+
+}
+
+.col-md-12 p{
+	background-color: #343B4E;
+	opacity: .8;
+	padding: 10px;
+	margin-top: 10px;
+
+}
+
+/*Expericence section*/
+
+.expbg {
+    background-image: url(../images/mountainpic.jpg);
+	padding: 300px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    text-align: center;
+}
+
+.titleExp{
+	height: 650px;
+    position: absolute;
+    top: 190rem;
+}
+
+.extitlebox{
+	top: 184rem;
+	position: absolute;
+
+}
+.experience {
+	background-color: #343B4E;
+	opacity: .8;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: lighter;
+}
+
+/*Experices boxes*/
+
+.rightvl {
+    top: 190rem;
+    padding-left: 5px;
+
+}
+
+.leftvl {
+	border-right: 3px solid #25db11;
+    top: 200rem;
+    padding-right: 5px;
+}
+
+/*experience description*/
+
+.lhexp {
+	background-color: #343B4E;
+	opacity: .8;
+	padding: 4px;
+	border-radius: 10px;
+	width: 180px;
+	height: auto;
+}
+
+
+.rhexp {
+	background-color: #343B4E;
+	opacity: .8;
+	padding: 4px;
+	border-radius: 10px;
+    width: 180px;
+	height: auto;
+}
+
+.rhexplower{
+    background-color: #343B4E;
+	opacity: .8;
+	padding: 4px;
+	border-radius: 10px;
+	margin-top: 370px;
+    width: 180px;
+	height: auto;
+}
+
+/*contact*/
+
+.pbox {
+	margin-top: 300px;
+
+}
+
+.contact {
+	width: 700px;
+	height: 600px;
+	background-color: #343B4E;
+	padding: 50px;
+	box-shadow: 1px 1px 15px black;
+	position: absolute;
+	top: 240rem;
+	z-index: 3;
+	left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.pbox h1{
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+
+.pbox p, a {
+	text-align: left;
+	color: white;
+	font-weight: 10;
+	margin: 0;
+
+}
+
+
+#map{
+  width:auto;
+  height:250px;
+  background: white;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 40px;
+  left: 0;
+  right: 0;
+
+}
+
+
+
+
+/*Breaking point for mobile device 768px*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .navbar:first-child {
+        display: none;
+    }
+
+    #myScrollspy{
+    	display: none;
+    }
+
+    .pos-f-t {
+	display: inline;
+
+}
+
+/*ABOUT ME AND CONTACT*/
+
+#mobileview{
+	width: 100%;
+	height: auto;
+	padding: 30px;
+}
+
+
+
+
+/*PORTAFOLIO*/
+
+#protitle{
+	top: 120rem;
+}
+
+#projectMobile{
+	top: 130rem;
+}
+
+.col-md-6 .bg-info{
+	display: none;
+}
+
+
+}
+
+/*Breaking point for mobile device 768px*/
+
+@media only screen and (max-width: 526px) {
+
+#protitle{
+	top: 125rem;
+}
+
+#projectMobile{
+	top: 135rem;
+}
+
+
+
+}
+
+
+
+/*Breaking point for mobile device 600px*/
+@media only screen and (max-width: 600px) {
+
+#mobilebg {
+	padding: 300px 200px;
+
+}
+
+#nameboxmobile, #titleboxmobile{
+	right: 12rem;
+}
+
+
+}
+
+
+/*Breaking point for mobile device 440px*/
+@media only screen and (max-width: 440px) {
+
+#protitle{
+	top: 130rem;
+}
+
+#projectMobile{
+	top: 140rem;
+}
+
+}
