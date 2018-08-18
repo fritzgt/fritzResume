@@ -449,6 +449,18 @@ p {
 }
 
 
+.page-footer{
+	position: absolute;
+	top: 280rem;
+	left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+
+}
+
+
 
 
 /*Breaking point for mobile device 768px*/
@@ -518,6 +530,8 @@ p {
 /*Breaking point for mobile device 600px*/
 @media only screen and (max-width: 600px) {
 
+
+
 #mobilebg {
 	padding: 300px 200px;
 
@@ -534,8 +548,9 @@ p {
 /*Breaking point for mobile device 440px*/
 @media only screen and (max-width: 440px) {
 
+
 #protitle{
-	top: 130rem;
+	top: 132rem;
 }
 
 #projectMobile{
