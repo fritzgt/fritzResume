@@ -468,8 +468,6 @@ p {
 @media only screen and (max-width: 768px) {
 
 #mobilebg {
-	/*background-size:100%;
-    width:100%;*/
     background-attachment: scroll;
 
 }
