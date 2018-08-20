@@ -466,6 +466,18 @@ p {
 /*Breaking point for mobile device 768px*/
 
 @media only screen and (max-width: 768px) {
+
+#mobilebg {
+	/*background-size:100%;
+    width:100%;*/
+    background-attachment: scroll;
+
+}
+
+.pro{
+   background-attachment: scroll;
+}
+
     /* For mobile phones: */
 
     .navbar:first-child {
@@ -509,7 +521,7 @@ p {
 
 }
 
-/*Breaking point for mobile device 768px*/
+/*Breaking point for mobile device 526px*/
 
 @media only screen and (max-width: 526px) {
 
@@ -549,6 +561,19 @@ p {
 @media only screen and (max-width: 440px) {
 
 
+/*My name intro*/
+
+
+#nameboxmobile h1{
+	font-size: 45px;
+	right: -3rem;
+
+}
+#titleboxmobile h2{
+	font-size: 15px;
+}
+
+/*Portfolio section*/
 #protitle{
 	top: 132rem;
 }
@@ -558,3 +583,40 @@ p {
 }
 
 }
+
+
+@media only screen and (max-width: 440px) {
+
+
+#mobilebg {
+	padding: 300px 160px;
+
+}
+
+/*Portfolio section*/
+#protitle{
+	top: 128rem;
+}
+
+#projectMobile{
+	top: 138rem;
+}
+
+
+.col-md-12{
+	margin-left: 0;
+}
+
+.lhexp, .rhexp, .rhexplower{
+  width: 150px;
+}
+
+
+.rightvl p, .leftvl p{
+
+	font-size: 16px;
+}
+
+
+}
+
