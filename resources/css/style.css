@@ -620,3 +620,48 @@ p {
 
 }
 
+@media only screen and (max-width: 320px) {
+
+#mobilebg {
+	padding: 300px 90px;
+
+}
+
+#nameboxmobile h1{
+	right: -7rem;
+
+}
+#titleboxmobile h2{
+	right: -4rem;
+}
+
+
+.explevel h1{
+	font-size: 30px; 
+}
+
+.explevel h5{
+	font-size: 12px; 
+}
+
+#protitle{
+	top: 134rem;
+}
+
+#projectMobile{
+	top: 145rem;
+}
+
+.titleExp{
+	/*height: 650px;*/
+    /*position: absolute;*/
+    top: 198rem;
+}
+
+.extitlebox{
+	top: 191rem;
+	/*position: absolute;*/
+
+}
+
+}	
