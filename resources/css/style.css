@@ -1,6 +1,3 @@
-html {
-
-}
 
 body {
 	background-color: #343B4E;
@@ -9,6 +6,7 @@ body {
 	position: relative;
 }
 
+/*Main Nav bar*/
 .navbar-brand {
 	color: green;
 }
@@ -28,11 +26,97 @@ body {
 
 }
 
+/*Dot nav*/
+.nav-pills {
+	position: fixed;
+	top: 20rem;
+	z-index: 10;
+	right: 20px;
+	font-size: 10px;
+}
+
+
+.nav-item .fa {
+	line-height: 2rem;
+}
+
+.fa:hover {
+	color: #5ABFF2; 
+}
+
+
+.nav-pills>li.active>a{
+       color: #5ABFF2 !important ;
+}
+
+
+
+/*Dot nav / Hover Tooltips*/
+
+.tooltiptext {
+    visibility: hidden;
+    border: 1px solid #6df0fb;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    padding: 0 7px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+    right: 15px;
+}
+
+/*Visable on hover*/
+
+#homeDot {
+	top: 3px;
+}
+
+.dothome:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#proDot {
+	top: 35px;
+
+}
+.dotpro:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#expeDot {
+	top: 70px;
+	
+}
+.dotexpe:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#portDot {
+	top: 100px;
+	
+}
+.dotport:hover .tooltiptext {
+    visibility: visible;
+}
+
+#contDot {
+	top: 133px;
+	
+}
+.dotcont:hover .tooltiptext {
+    visibility: visible;
+}
 
 
 
 /* my name */
-
 .background1 {
 	background-image: url(../images/deskwd.jpg);
 	padding: 300px;
@@ -101,7 +185,6 @@ h2 {
 }
 
 
-
 p {
 	color: white;
 	font-size: 20px;
@@ -124,94 +207,6 @@ p {
  border-color: #6df0fb;
 }
 
-
-
-/*Dot nav*/
-.nav-pills {
-	position: fixed;
-	top: 20rem;
-	z-index: 10;
-	right: 20px;
-	font-size: 10px;
-}
-
-
-.nav-item .fa {
-	line-height: 2rem;
-	/*color: white;*/
-}
-
-.fa:hover {
-	color: #5ABFF2; 
-}
-
-
-.nav-pills>li.active>a{
-       color: #5ABFF2 !important ;
-}
-
-/*Dot nav / Hover Tooltips*/
-
-.tooltiptext {
-    visibility: hidden;
-    border: 1px solid #6df0fb;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    padding: 0 7px;
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 10;
-    right: 15px;
-}
-
-/*Visable on hover*/
-
-#homeDot {
-	top: 3px;
-}
-
-.dothome:hover .tooltiptext {
-    visibility: visible;
-}
-
-
-#proDot {
-	top: 35px;
-
-}
-.dotpro:hover .tooltiptext {
-    visibility: visible;
-}
-
-
-#expeDot {
-	top: 70px;
-	
-}
-.dotexpe:hover .tooltiptext {
-    visibility: visible;
-}
-
-
-#portDot {
-	top: 100px;
-	
-}
-.dotport:hover .tooltiptext {
-    visibility: visible;
-}
-
-#contDot {
-	top: 133px;
-	
-}
-.dotcont:hover .tooltiptext {
-    visibility: visible;
-}
 
 
 /*Professional section*/
@@ -280,7 +275,9 @@ p {
 	width: 85%;
 }
 
-/*Projects */
+
+
+/*Potfolio section */
 
 .protitle{
 	position: absolute;
@@ -353,6 +350,7 @@ p {
 	font-weight: lighter;
 }
 
+
 /*Experices boxes*/
 
 .rightvl {
@@ -367,6 +365,7 @@ p {
     padding-right: 5px;
 }
 
+
 /*experience description*/
 
 .lhexp {
@@ -377,7 +376,6 @@ p {
 	width: 180px;
 	height: auto;
 }
-
 
 .rhexp {
 	background-color: #343B4E;
@@ -398,7 +396,8 @@ p {
 	height: auto;
 }
 
-/*contact*/
+
+/*contact section*/
 
 .pbox {
 	margin-top: 300px;
@@ -432,7 +431,6 @@ p {
 	color: white;
 	font-weight: 10;
 	margin: 0;
-
 }
 
 
@@ -445,7 +443,6 @@ p {
   margin-top: 40px;
   left: 0;
   right: 0;
-
 }
 
 
@@ -456,14 +453,16 @@ p {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-
-
 }
 
 
 
 
-/*Breaking point for mobile device 768px*/
+/*Media Queries section */
+
+
+
+/*Breaking point 768px*/
 
 @media only screen and (max-width: 768px) {
 
@@ -478,15 +477,15 @@ p {
 
     /* For mobile phones: */
 
-    .navbar:first-child {
+.navbar:first-child {
         display: none;
-    }
+}
 
-    #myScrollspy{
+#myScrollspy{
     	display: none;
-    }
+}
 
-    .pos-f-t {
+.pos-f-t {
 	display: inline;
 
 }
@@ -498,7 +497,6 @@ p {
 	height: auto;
 	padding: 30px;
 }
-
 
 
 
@@ -519,10 +517,13 @@ p {
 
 }
 
-/*Breaking point for mobile device 526px*/
+
+
+/*Breaking point 526px*/
 
 @media only screen and (max-width: 526px) {
 
+/*portfolio*/
 #protitle{
 	top: 125rem;
 }
@@ -537,16 +538,17 @@ p {
 
 
 
-/*Breaking point for mobile device 600px*/
+/*Breaking point 600px*/
 @media only screen and (max-width: 600px) {
 
 
-
+/*main backgrounds*/
 #mobilebg {
 	padding: 300px 200px;
 
 }
 
+/*my name*/
 #nameboxmobile, #titleboxmobile{
 	right: 12rem;
 }
@@ -555,13 +557,11 @@ p {
 }
 
 
-/*Breaking point for mobile device 440px*/
+
+/*Breaking point 440px*/
 @media only screen and (max-width: 440px) {
 
-
 /*My name intro*/
-
-
 #nameboxmobile h1{
 	font-size: 45px;
 	right: -3rem;
@@ -571,21 +571,6 @@ p {
 	font-size: 15px;
 }
 
-/*Portfolio section*/
-#protitle{
-	top: 132rem;
-}
-
-#projectMobile{
-	top: 140rem;
-}
-
-}
-
-
-@media only screen and (max-width: 440px) {
-
-
 #mobilebg {
 	padding: 300px 160px;
 
@@ -593,11 +578,11 @@ p {
 
 /*Portfolio section*/
 #protitle{
-	top: 128rem;
+	top: 126rem;
 }
 
 #projectMobile{
-	top: 138rem;
+	top: 136rem;
 }
 
 
@@ -605,35 +590,69 @@ p {
 	margin-left: 0;
 }
 
+
+/*Experience section*/
 .lhexp, .rhexp, .rhexplower{
   width: 150px;
 }
-
 
 .rightvl p, .leftvl p{
 
 	font-size: 16px;
 }
 
+}
+
+
+
+/*Breaking point 375px*/
+@media only screen and (max-width: 375px) {
+
+/*Experience section*/
+
+.extitlebox{
+	top: 189rem;
 
 }
+
+.titleExp{
+    top: 196rem;
+}
+
+}	
+
+
+/*Breaking point 320px*/
 
 @media only screen and (max-width: 320px) {
 
-#mobilebg {
-	padding: 300px 90px;
+/*Background*/
 
+#mobilebg {
+	padding: 300px 50px;
 }
 
+/*My name intro*/
 #nameboxmobile h1{
-	right: -7rem;
+	right: -10rem;
 
 }
 #titleboxmobile h2{
-	right: -4rem;
+	right: -6.5rem;
 }
 
 
+/*Portfolio section*/
+#protitle{
+	top: 136rem;
+}
+
+#projectMobile{
+	top: 147rem;
+}
+
+
+/*Experience*/
 .explevel h1{
 	font-size: 30px; 
 }
@@ -642,23 +661,14 @@ p {
 	font-size: 12px; 
 }
 
-#protitle{
-	top: 134rem;
-}
-
-#projectMobile{
-	top: 145rem;
-}
 
 .titleExp{
-	/*height: 650px;*/
-    /*position: absolute;*/
     top: 198rem;
 }
 
 .extitlebox{
-	top: 191rem;
-	/*position: absolute;*/
+	top: 192rem;
+
 
 }
 

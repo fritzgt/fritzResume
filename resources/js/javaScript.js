@@ -13,7 +13,8 @@
     });
 
 
-// Change this to define your colors. Can also be rgb(0,0,0) etc
+
+// Colors for the dot nav
 var ColorForSection = {
   '#top': 'white',
   '#prosection': "white",
@@ -36,6 +37,8 @@ $(document).on('activate.bs.scrollspy', ChangeNavColor);
 // Call the function when the navbar's done loading
 // So we also have the correct color to begin with.
 $('.nav').ready(ChangeNavColor);
+
+
 
 
 // Google maps
