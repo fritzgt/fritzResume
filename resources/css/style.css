@@ -519,6 +519,35 @@ p {
 
 
 
+
+
+
+/*Breaking point 600px*/
+@media only screen and (max-width: 600px) {
+
+
+/*main backgrounds*/
+#mobilebg {
+	padding: 300px 200px;
+
+}
+
+/*my name*/
+#nameboxmobile, #titleboxmobile{
+	right: 12rem;
+}
+/*portfolio*/
+#protitle{
+	top: 125rem;
+}
+
+#projectMobile{
+	top: 135rem;
+}
+
+}
+
+
 /*Breaking point 526px*/
 
 @media only screen and (max-width: 526px) {
@@ -537,29 +566,8 @@ p {
 }
 
 
-
-/*Breaking point 600px*/
-@media only screen and (max-width: 600px) {
-
-
-/*main backgrounds*/
-#mobilebg {
-	padding: 300px 200px;
-
-}
-
-/*my name*/
-#nameboxmobile, #titleboxmobile{
-	right: 12rem;
-}
-
-
-}
-
-
-
 /*Breaking point 440px*/
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 452px) {
 
 /*My name intro*/
 #nameboxmobile h1{
@@ -603,7 +611,18 @@ p {
 
 }
 
+/*Breaking point 375px*/
+@media only screen and (max-width: 390px) {
+#protitle{
+	top: 133rem;
+}
 
+#projectMobile{
+	top: 143rem;
+}
+
+
+}	
 
 /*Breaking point 375px*/
 @media only screen and (max-width: 375px) {
@@ -611,11 +630,11 @@ p {
 
 /*Portfolio section*/
 #protitle{
-	top: 133rem;
+	top: 132rem;
 }
 
 #projectMobile{
-	top: 143rem;
+	top: 142rem;
 }
 
 
@@ -684,3 +703,18 @@ p {
 }
 
 }	
+
+
+@media only screen and (max-width: 306px) {
+/*Portfolio section*/
+#protitle{
+	top: 140rem;
+}
+
+#projectMobile{
+	top: 152rem;
+}
+
+
+
+	}
