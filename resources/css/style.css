@@ -545,6 +545,10 @@ p {
 	top: 135rem;
 }
 
+#lastProject{
+	display: none;
+} 
+
 }
 
 
@@ -584,6 +588,8 @@ p {
 
 }
 
+
+
 /*Portfolio section*/
 #protitle{
 	top: 126rem;
@@ -597,6 +603,7 @@ p {
 .col-md-12{
 	margin-left: 0;
 }
+
 
 
 /*Experience section*/
@@ -626,6 +633,7 @@ p {
 
 /*Breaking point 375px*/
 @media only screen and (max-width: 375px) {
+
 
 
 /*Portfolio section*/
