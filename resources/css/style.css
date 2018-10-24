@@ -114,6 +114,11 @@ body {
     visibility: visible;
 }
 
+/*scroll to top */
+
+.scrollTop{
+	visibility: hidden;
+}
 
 
 /* my name */
@@ -481,8 +486,19 @@ p {
         display: none;
 }
 
+/*Hide dot nav for mobile devices added important so JS dont overwrite it on the hide/show function*/
 #myScrollspy{
-    	display: none;
+    	display: none !important;
+}
+
+/*scroll to the top button*/
+
+.scrollTop{
+	z-index: 15;
+	visibility: visible;
+	position: fixed;
+    top: 90%;
+    right: 5%;
 }
 
 .pos-f-t {

@@ -1,5 +1,17 @@
 
 
+//Smooth scroll
+
+var $smoothScroll = $('html, body');
+$('a[href^="#"]').click(function () {
+    $smoothScroll.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 800);
+});
+
+
+
+
 //  scrollspy
     $(document).ready(function(e) {
 
@@ -41,7 +53,42 @@ $('.nav').ready(ChangeNavColor);
 
 
 
-// Google maps
+
+// Hide dot nav 
+
+var menu = $("#myScrollspy");
+$(window).scroll(function(){
+  //more then or equals to
+  if($(window).scrollTop() >= 450 ){
+       menu.show();
+
+  //less then 100px from top
+  } else {
+     menu.hide();
+
+  }
+});
+
+
+
+// Hide scroll to top button  
+
+var buttonTop = $(".scrollTop");
+$(window).scroll(function(){
+  //more then or equals to
+  if($(window).scrollTop() >= 450 ){
+       buttonTop.show();
+
+  //less then 100px from top
+  } else {
+     buttonTop.hide();
+
+  }
+});
+
+
+
+// Google maps API
 
 var map;
   function initMap() {
